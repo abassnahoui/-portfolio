@@ -148,6 +148,11 @@
     .btn-ghost:hover, .btn-icon:hover, .btn-main:hover {
       transform: translateY(-2px);
     }
+    .btn-main:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+      filter: brightness(1.1);
+}
 
     .mobile-toggle {
       display: none;
@@ -247,7 +252,7 @@
     }
 
     section {
-      padding: 70px 0 10px;
+      padding: 80px 20px;
     }
 
     .section-title {
